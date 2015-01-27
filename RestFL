@@ -1,0 +1,5 @@
+mydna="ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+frag1= mydna.find("GAATTC") + 1
+frag2= len(mydna) - frag1
+print("length of fragment 1:" + str(frag1))
+print("length of fragment 2:" + str(frag2))
