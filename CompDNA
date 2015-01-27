@@ -1,0 +1,8 @@
+mydna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+rep1=mydna.replace('A','aa')
+rep2=rep1.replace('T','A')
+rep3=rep2.replace('aa','T')
+rep4=rep3.replace('C','cc')
+rep5=rep4.replace('G','C')
+rep6=rep5.replace('cc','G')
+print(rep6)
