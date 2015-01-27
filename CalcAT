@@ -1,0 +1,7 @@
+mydna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+
+ACount = mydna.count('A')
+TCount = mydna.count('T')
+
+ATcontent = ACount + TCount / len(mydna)
+print("AT content: " + str(ATcontent))
