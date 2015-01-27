@@ -1,0 +1,6 @@
+mydna ="ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGATCGATCGATCGATCGATCATGCTATCATCGATCGATATCGATGCATCGACTACTAT"
+exon1 = mydna[0:63]
+exon2 = mydna[90:]
+exonlength=len(exon1 + exon2)
+totallength=len(mydna)
+print(100 * exonlength / totallength)
